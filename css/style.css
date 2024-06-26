@@ -59,6 +59,11 @@ header{
     background: #27AE60;
 }
 
+/* btn-bottom */
+.btn-link-bottom{
+    display: none;
+}
+
 /* navbar */
 .navbar{
     background-color: #1c44d6;
@@ -337,6 +342,28 @@ header{
         display: flex;
         flex-direction: column;
         padding: 3rem 0;
+    }
+    .btn-link-bottom{
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+        align-items: center;
+        padding: 1rem 0;
+    }
+    .btn-link-bottom a{
+        display: inline-block;
+        width: 13rem;
+        text-align: center;
+        color: #fff;
+        font-size: 1.5rem;
+        padding: .6rem 1rem;
+        border-radius: 2rem;
+    }
+    .btn-link-bottom .red{
+        background: #C0392B;
+    }
+    .btn-link-bottom .green{
+        background: #27AE60;
     }
     /* grid-3x1 */
     .grid-3x1{
